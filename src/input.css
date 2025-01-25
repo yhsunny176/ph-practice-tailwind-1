@@ -9,4 +9,8 @@
   --color-green-a1: rgba(133, 160, 25, 1);
   --color-green-a2: rgba(164, 188, 70, 1);
   --color-light-yellow: rgba(255, 251, 240, 1);
+  --color-card-grey: rgba(241, 241, 241, 1);
+  --color-black-a2: rgba(54, 57, 88, 1);
+
+  --drop-shadow-cards: 0px 10px 30px rgba(0, 0, 0, 0.05);
 }
