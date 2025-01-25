@@ -13,25 +13,34 @@
   <!-- Header Section Start -->
   <header>
     <!-- Navbar Start -->
-    <nav class="flex justify-between py-8 px-4">
-      <div class="logo max-w-56">
+    <nav class="flex justify-between py-8 px-4 items-center md:px-14">
+      <div class="logo max-w-56 md:max-w-60">
         <img src="./icons/logo.png" alt="Penguin Fashion brand logo" class="w-full h-auto">
       </div>
 
+      <div class="hidden md:block">
+        <ul class="flex gap-14 **:font-roboto **:font-medium **:text-black **:hover:text-orange-400">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Product</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
-        class="size-8">
+        class="size-8 md:hidden">
         <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
       </svg>
     </nav>
     <!-- Navbar End -->
 
     <!-- Hero Section Start -->
-    <section class="py-12 flex items-center flex-col gap-12">
-      <div class="max-w-92 mx-auto">
-        <h1 class="font-bebas text-6xl max-w-92"><span class="text-yellow">Be The Penguins</span> of Winter</h1>
-        <p class="max-w-72 text-black mt-2">Lorem Ipsum is simply dummy text of the
+    <section class="py-12 flex items-center flex-col gap-12 max-w-92 mx-auto md:flex-row md:max-w-max">
+      <div class="max-w-92 md:max-w-80">
+        <h1 class="font-bebas text-black text-6xl max-w-92 md:max-w-full md:text-6xl"><span class="text-yellow">Be The
+            Penguins</span> of Winter</h1>
+        <p class="max-w-72 text-black mt-2 font-roboto">Lorem Ipsum is simply dummy text of the
           printing and typesetting industry.</p>
-
         <a href="#"
           class="flex gap-3 text-white bg-gradient-to-t from-green-a1 to-green-a2 w-max px-8 py-4 rounded-xl mt-6 uppercase font-medium">
           <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
@@ -44,8 +53,8 @@
         </a>
       </div>
 
-      <div class="max-w-92">
-        <img src="./images/model.png" alt="">
+      <div class="max-w-92 md:min-w-xs">
+        <img src="./images/model.png" alt="a young lady image with background shapes" class="md:max-w-full">
       </div>
     </section>
     <!-- Hero Section End -->
