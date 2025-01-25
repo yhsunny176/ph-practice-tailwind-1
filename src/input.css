@@ -1,1 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
+@theme {
+  --font-bebas: "Bebas Neue", "serif"; 
+  --font-roboto: "Roboto", "serif";
+
+  --color-yellow: rgba(250, 190, 76, 1);
+  --color-black: rgba(62, 62, 62, 1);
+  --color-green-a1: rgba(133, 160, 25, 1);
+  --color-green-a2: rgba(164, 188, 70, 1);
+}
